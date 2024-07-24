@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  background: #4d4d4d;
+}
+
+main {
+  margin-top: 65px;
+  width: 100%;
+}
+
+.center {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+  background: #fff;
+}

@@ -1,0 +1,24 @@
+.users-list {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  width: 90%;
+  max-width: 50rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+.reset__users-search {
+    margin: 0 5px;
+    padding: 10px 15px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    background-color: #007bff;
+}
+
+.reset__users-search:hover {
+  background-color: #0062cb;
+}

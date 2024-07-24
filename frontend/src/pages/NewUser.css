@@ -1,0 +1,75 @@
+.new__user-form {
+  list-style: none;
+  margin: 0 auto;
+  padding: 1rem;
+  width: 90%;
+  max-width: 40rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 6px;
+  background-color: white;
+}
+
+.new__user-form button {
+  margin: 0 5px;
+  padding: 10px 15px;
+  border: 1px solid black;
+  background-color: white;
+  cursor: pointer;
+  color: blue;
+}
+
+.new__user-form button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+  color: white;
+  
+}
+
+.new__user-form button:hover:not([disabled]){
+  background-color: #007bff;
+  color: white;
+}
+
+.form-control {
+  margin: 1rem 0;
+}
+
+.form-control label,
+.form-control input,
+.form-control textarea {
+  display: block;
+}
+
+.form-control label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: blue
+}
+
+.form-control input,
+.form-control textarea {
+  width: 100%;
+  font: inherit;
+  border: 1px solid #ccc;
+  background: #f8f8f8;
+  padding: 0.15rem 0.25rem;
+}
+
+.form-control input:focus,
+.form-control textarea:focus {
+  outline: none;
+  background: #ebebeb;
+  border-color: #510077;
+}
+
+.form-control--invalid label,
+.form-control--invalid p {
+  color: red;
+}
+
+.form-control--invalid input,
+.form-control--invalid textarea {
+  border-color: red;
+  background: #ffd1d1;
+}
+
